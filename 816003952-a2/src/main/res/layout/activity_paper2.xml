@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paper2">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="281dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Abstract— Smart phone is considered an important innovation that has changed the human life in several aspects. Android has emerged as the most widely used operating system in Smart Phones. Android operating system is open source and freely accessible to everyone. On Android operating system, many applications (apps) are available for fun and entertainment. With cut-throat competition for various examinations, students have moved from conventional way of learning to M-learning for preparation. The present paper discusses the design and development of an Android based app named as iquiz that can help students in preparation of competitive exams like UGC-NET, GATE etc. while they are on move. This paper also highlights various challenges faced by developers in Android App Development"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:text="Challenges in Android Application Development: A Case Study "
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

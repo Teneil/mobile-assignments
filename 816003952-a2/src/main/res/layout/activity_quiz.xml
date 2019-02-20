@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="129dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:layout_toStartOf="@+id/submit"
+        android:text="@string/q1" />
+
+
+    <RadioGroup
+        android:id="@+id/group2"
+        android:layout_width="130dp"
+        android:layout_height="74dp"
+        android:layout_alignBottom="@+id/question2"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/true2"
+            android:layout_width="118dp"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:text="true" />
+
+        <RadioButton
+            android:id="@+id/false2"
+            android:layout_width="117dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="false" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group1"
+        android:layout_width="120dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/group2">
+
+        <RadioButton
+            android:id="@+id/true1"
+            android:layout_width="90dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:text="true" />
+
+        <RadioButton
+            android:id="@+id/false1"
+            android:layout_width="91dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:text="false" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group3"
+        android:layout_width="130dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/true3"
+            android:layout_width="118dp"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:text="true" />
+
+        <RadioButton
+            android:id="@+id/false3"
+            android:layout_width="117dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="false" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group4"
+        android:layout_width="130dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="161dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/true4"
+            android:layout_width="118dp"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:text="true" />
+
+        <RadioButton
+            android:id="@+id/false4"
+            android:layout_width="117dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="false" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group5"
+        android:layout_width="130dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="72dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/true5"
+            android:layout_width="118dp"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:text="true" />
+
+        <RadioButton
+            android:id="@+id/false5"
+            android:layout_width="117dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="false" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="175dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/question1"
+        android:layout_marginTop="106dp"
+        android:text="@string/q2" />
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/question1"
+        android:layout_marginTop="202dp"
+        android:text="@string/q3" />
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/question1"
+        android:layout_marginBottom="176dp"
+        android:text="@string/q4" />
+
+    <TextView
+        android:id="@+id/question5"
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:layout_alignStart="@+id/question1"
+        android:layout_alignTop="@+id/group5"
+        android:text="@string/q5" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="submit" />
+
+</RelativeLayout>

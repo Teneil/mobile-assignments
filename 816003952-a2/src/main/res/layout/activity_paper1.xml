@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paper1">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="338dp"
+        android:layout_height="253dp"
+        android:layout_centerInParent="true"
+        android:text="Abstract—Introduced the Android platform and the features of Android applications, gave a detailed description of Android application framework from the prospective of developers. A simple music player is provided as instance to illustrate the basic working processes of Android application components. This paper could provide guidance to understanding the operation mechanism of Android applications and to developing applications on Android platform. "
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="322dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Research on Development of Android Applications"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="40dp" />
+</RelativeLayout>

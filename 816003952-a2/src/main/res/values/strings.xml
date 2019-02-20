@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ElearnDroid2018</string>
+    <string name="what_is_AD">Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA . On top of IntelliJ\'s powerful code editor and developer tools, Android Studio offers even more features that enhance your productivity when building Android apps.</string>
+    <string name="button">In Android, Button represents a push button. A Push buttons can be clicked, or pressed by the user to perform an action. There are different types of buttons used in android such as CompoundButton, ToggleButton, RadioButton.</string>
+    <string name="date_picker">In Android, DatePicker is a widget used to select a date. It allows to select date by day, month and year in your custom UI (user interface). If we need to show this view as a dialog then we have to use a DatePickerDialog class. For selecting time Android also provides timepicker to select time.</string>
+    <string name="image_view">In Android, ImageView class is used to display an image file in application. Image file is easy to use but hard to master in Android, because of the various screen sizes in Android devices. </string>
+    <string name="spinner">Spinners provide a quick way to select one value from a set. In the default state, a spinner shows its currently selected value. Touching the spinner displays a dropdown menu with all other available values, from which the user can select a new one.</string>
+    <string name="edit_text">In Android, EditText is a standard entry widget in android apps. It is an overlay over TextView that configures itself to be editable. EditText is a subclass of TextView with text editing operations. We often use EditText in our applications in order to provide an input or text field, especially in forms.</string>
+    <string name="number_picker">A widget that enables the user to select a number from a predefined range. There are two flavors of this widget and which one is presented to the user depends on the current theme.</string>
+    <string name="toast">Toast is used to display information for a period of time. It contains a message to be displayed quickly and disappears after specified period of time. It does not block the user interaction. Toast is a subclass of Object class. In this we use two constants for setting the duration for the Toast. Toast notification in android always appears near the bottom of the screen. We can also create our custom toast by using custom layout(xml file).</string>
+    <string name="components">Components</string>
+    <string name="list_view">ListView is a view group that displays a list of scrollable items. The list items are automatically inserted to the list using an Adapter that pulls content from a source such as an array or database query and converts each item result into a view that\'s placed into the list.</string>
+    <string name="q1">Android studio is used for Android app development</string>
+    <string name="q2">A Push buttons can not be clicked, or pressed by the user to perform an action.</string>
+    <string name="q3">Spinners provide a quick way to select one value from a set.</string>
+    <string name="q4">ImageView class is not used to display an image file in application.</string>
+    <string name="q5">Toast is used to display information for a period of time.</string>
+
+
+    <string-array name="component_array">
+    <item>About android studio</item>
+    <item>Toast</item>
+    <item>Button</item>
+    <item>DatePicker</item>
+    <item>ImageView</item>
+    <item>ListView</item>
+    <item>Spinner</item>
+    <item>EditText</item>
+    <item>NumberPicker</item>
+</string-array>
+    <string-array name="hey_spinner">
+        <item>Hello</item>
+        <item>i'm</item>
+        <item>A</item>
+        <item>spinner</item>
+
+    </string-array>
+</resources>
